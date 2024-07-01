@@ -33,7 +33,7 @@ spec:
   selector:
     app: history
   ports:
-    - port: 8080
+    - port: 8008
       nodePort: 30003
   type: NodePort
 
