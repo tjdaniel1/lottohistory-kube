@@ -17,13 +17,13 @@ spec:
           image: jinseok351/lotto-history:latest
           env:
             - name: profile
-              value: "latest"
+              value: "prod"
             - name: user
               value: "postgres"
             - name: password
               value: "1234"
           ports:
-            - containerPort: 8080
+            - containerPort: 8008
 ---
 apiVersion: v1
 kind: Service
